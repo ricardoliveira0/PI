@@ -1,0 +1,14 @@
+class DiamondPrinter {
+    fun printToList(char: Char): List<String> {
+        val l = charStringLength(char) + 2
+
+        return ('A'..char).map { charRow(charString(it), l)
+        }.toList().let {it + it.reversed().drop(1)}
+
+    }
+    inline fun charStringLength(char: Char) = 2 * (char - 'A' - 1) + 1
+    inline fun charString(char: Char, padChar: Char = ' ') = if(char == 'A') "A" else "$char${"".padEnd(charStringLength(char), padChar)}$char"
+    inline fun charRow(charString: String, length: Int = charString.length + 2, padChar: Char = ' ') = ((length - charString.length) / 2).let {
+        "${"".padEnd(it, padChar)}$charString${"".padEnd(it, padChar)}"
+    }
+}
