@@ -17,6 +17,8 @@ data class PhoneNumber(val input: String) {
     	return digits
     }
 
-
+    override fun toString(): String {
+        return "($codeArea) $exchangeCode-$subscriberNumber"
+    }
 
 }
