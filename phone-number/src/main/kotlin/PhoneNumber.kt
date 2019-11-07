@@ -18,7 +18,6 @@ data class PhoneNumber(val input: String) {
     }
 
     override fun toString(): String {
-        return "($codeArea) $exchangeCode-$subscriberNumber"
+        return "($codeArea) $middleNo-$lastNo"
     }
-
 }
