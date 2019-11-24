@@ -1,17 +1,16 @@
 class School {
 
-    fun db(): Map<Int, List<String>> =
-        TODO("Implement this function to complete the task")
+	private var database: MutableMap<Int, List<String>> = mutableMapOf()
+
+    fun db(): Map<Int, List<String>> = database.toMap()
 
     fun add(student: String, grade: Int) {
-        TODO("Implement this function to complete the task")
+        val oldRoster = database[grade] ?: emptyList()
+        database.put(grade, oldRoster + student)
     }
 
-    fun grade(grade: Int): List<String> {
-        TODO("Implement this function to complete the task")
-    }
+    fun grade(grade: Int): List<String> = database[n] ?: emptyList()
 
-    fun sort(): Map<Int, List<String>> {
-        TODO("Implement this function to complete the task")
-    }
+    fun sort(): Map<Int, List<String>> = database.to.SortedMap()
+    	.mapValues {(_, v) -> v.sorted()}
 }
