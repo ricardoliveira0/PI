@@ -1,3 +1,4 @@
+import change.src.main.kotlin.ChangeCalculator
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Ignore
 import org.junit.Rule

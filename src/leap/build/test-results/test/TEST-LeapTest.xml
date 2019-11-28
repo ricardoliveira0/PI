@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LeapTest" tests="4" skipped="3" failures="0" errors="0" timestamp="2019-10-17T16:19:01" hostname="DESKTOP-NNCVTHD" time="0.016">
+<testsuite name="LeapTest" tests="4" skipped="3" failures="0" errors="0" timestamp="2019-11-28T04:50:58" hostname="duarte-weirdPC" time="0.019">
   <properties/>
   <testcase name="yearDivisibleBy100NotDivisibleBy400" classname="LeapTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="yearNotDivisibleBy4" classname="LeapTest" time="0.015"/>
+  <testcase name="yearNotDivisibleBy4" classname="LeapTest" time="0.017"/>
   <testcase name="yearDivisibleBy4NotDivisibleBy100" classname="LeapTest" time="0.0">
     <skipped/>
   </testcase>
