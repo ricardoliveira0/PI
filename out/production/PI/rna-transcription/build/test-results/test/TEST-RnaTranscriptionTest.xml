@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RnaTranscriptionTest" tests="5" skipped="4" failures="0" errors="0" timestamp="2019-11-11T15:33:31" hostname="DESKTOP-NNCVTHD" time="0.049">
+  <properties/>
+  <testcase name="thymineComplementIsAdenine" classname="RnaTranscriptionTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="adenineComplementIsUracil" classname="RnaTranscriptionTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="rnaTranscription" classname="RnaTranscriptionTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="guanineComplementIsCytosine" classname="RnaTranscriptionTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="cytosineComplementIsGuanine" classname="RnaTranscriptionTest" time="0.045"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

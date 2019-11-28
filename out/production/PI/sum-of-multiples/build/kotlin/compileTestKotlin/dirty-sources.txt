@@ -1,0 +1,1 @@
+C:\Users\Ricardo\Desktop\Git\PI\sum-of-multiples\src\test\kotlin\SumOfMultiplesTest.kt

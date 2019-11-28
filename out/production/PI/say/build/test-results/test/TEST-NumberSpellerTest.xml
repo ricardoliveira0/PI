@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NumberSpellerTest" tests="15" skipped="14" failures="0" errors="0" timestamp="2019-11-28T04:52:53" hostname="duarte-weirdPC" time="0.044">
+  <properties/>
+  <testcase name="test1IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test1000000000IsSpelledCorrectly" classname="NumberSpellerTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="test14IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test0IsSpelledCorrectly" classname="NumberSpellerTest" time="0.037"/>
+  <testcase name="test1000IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNegativeNumbersAreOutOfRange" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test1234IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test22IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test100IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test1002345IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test123IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNumbersAbove1000000000000AreOutOfRange" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test987654321123IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test1000000IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test20IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
