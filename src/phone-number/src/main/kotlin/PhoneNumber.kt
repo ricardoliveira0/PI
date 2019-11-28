@@ -6,7 +6,7 @@ data class PhoneNumber(val input: String) {
     private val lastNo = number.takeLast(4)
 
     private fun isTenDigit(): String { 
-    	val digits = input.filter { it.isDigit() } * Caso tenha o primeiro digito (1), este será removido.
+    	val digits = input.filter { it.isDigit() } //* Caso tenha o primeiro digito (1), este será removido.
 
     	if (digits.first() == '1') {
         	require(digits.length == 11) { "11 digits with country code (1)" }

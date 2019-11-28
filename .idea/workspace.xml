@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a500818-e135-4a41-8b11-0b6fb553dfd0" name="Default Changelist" comment="Updating DiffieHelman">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phone-number/src/main/kotlin/PhoneNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/phone-number/src/main/kotlin/PhoneNumber.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
