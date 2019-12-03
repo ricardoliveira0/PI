@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TwoferTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-11-07T17:51:17" hostname="DESKTOP-NNCVTHD" time="0.011">
+<testsuite name="TwoferTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-11-28T17:14:01" hostname="duarte-weirdPC" time="0.016">
   <properties/>
-  <testcase name="noNameGiven" classname="TwoferTest" time="0.011"/>
+  <testcase name="noNameGiven" classname="TwoferTest" time="0.015"/>
   <testcase name="emptyStringGiven" classname="TwoferTest" time="0.0"/>
   <testcase name="aNameGiven" classname="TwoferTest" time="0.0"/>
   <testcase name="anotherNameGiven" classname="TwoferTest" time="0.0"/>

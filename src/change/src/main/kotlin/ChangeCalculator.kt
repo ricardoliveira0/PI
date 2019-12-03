@@ -7,7 +7,7 @@ class ChangeCalculator(coinList: List<Int>) {
 
     fun computeMostEfficientChange(value : Int) : List<Int>{
 
-        var change = ArrayList<Int>()
+        val change = ArrayList<Int>()
         var aux = value
 
         if (value < lista.min()!!){
@@ -16,12 +16,13 @@ class ChangeCalculator(coinList: List<Int>) {
         if(value < 0){
             throw IllegalArgumentException("Negative totals are not allowed.")
         }
-        while (0 < aux){
+        while (0 <= aux){
             if (aux >= lista.max()!!){
                 aux -= lista.max()!!
                 change.add(lista.max()!!)
             }else{
-                lista.drop(lista.max()!!)
+                val index = lista.max()!!
+                lista.drop(index)
             }
         }
         return change

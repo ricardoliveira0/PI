@@ -1,8 +1,8 @@
 object BeerSong {
 
-    val lyrics: String by lazy { songVerses(99, 0) }
+    val lyrics: String by lazy { verses(99, 0) }
 
-    fun songVerses(n: Int): String {
+    fun verses(n: Int): String {
         require(n in (0..99)) { "Beer song can only start at 99 and end at 0!" }
 
         val singularOrPlural = if (n - 1 > 1) "bottles" else "bottle"
@@ -15,6 +15,6 @@ object BeerSong {
         }
     }
 
-    fun songVerses(startingBottles: Int, endingBottles: Int): String =
-        (startingBottles downTo endingBottles).map { songVerses(it) }.joinToString(separator = "\n")
+    fun verses(startingBottles: Int, endingBottles: Int): String =
+        (startingBottles downTo endingBottles).map { verses(it) }.joinToString(separator = "\n")
 }
