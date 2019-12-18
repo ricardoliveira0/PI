@@ -1,6 +1,8 @@
 object Hamming {
 
     fun compute(leftStrand: String, rightStrand: String): Int {
-        TODO("Implement this function to complete the task")
+        if(leftStrand != rightStrand)
+        	throw IllegalArgumentException()
+        return leftStrand.zip(rightStrand).count { it.first != it.second }
     }
 }
